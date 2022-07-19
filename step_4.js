@@ -3,7 +3,7 @@
   - rest parameter is prefixed with three dots for example(...)
 */
 
-function sum(a, b,...numbers) {
+function sum(a, ...numbers) {
   let sum = 0;
   for (let i of numbers) {
     sum = sum + i;
@@ -12,4 +12,4 @@ function sum(a, b,...numbers) {
 
 }
 
-sum(10, 20, 3, 4, 5);
+sum(20, 3, 4, 5);

@@ -24,7 +24,7 @@ console.log(person.webSkills.mernStact);
 
 // for...in - Loop
 for (let props in person) {
-  console.log(props);
+  // console.log(props);
   // console.log(person[props]);
-  console.log(props+ "= "+person[props]);
+  console.log(props+" = "+person[props]);
 }

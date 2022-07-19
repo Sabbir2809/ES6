@@ -1,4 +1,4 @@
-// Function by using the function constructor
+// Dynamic Function: Function by using the function constructor
 let inFo = function () {
   let name = "Sabbir Hossain";
   let ID = "192-15-2809";

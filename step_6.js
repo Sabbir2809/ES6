@@ -1,7 +1,6 @@
 /* 
-using var:
-  - let can be Re-Declared.
-  - can be Re-Assigned a value.
+using var keyword:
+  - var can be Re-Declared & Re-Assigned a value.
 */
 var favoriteColor = "White";
 favoriteColor = "Black"; // Re-Assigned
@@ -9,10 +8,10 @@ var favoriteColor = "PowderBlue"; // Re-Declared
 console.log(favoriteColor);
 
 /*
-Using let
-  - let keyword is Assigned the Block Scope.
-  - let can't be Re-Declared.
+Using let keyword:
+  - Block Scope.
   - can be Re-Assigned a value.
+  - let can't be Re-Declared.
 */
 let id = 2808;
 id = 2809; // Re-Assigned
@@ -20,10 +19,9 @@ id = 2809; // Re-Assigned
 console.log(id);
 
 /* 
-Using const:
-  - It can't be re-assigned a value.
-  - it is block scoped.
-  - a constant can't be re-declared.
+Using const keyword:
+  - it is Block Scope.
+  - It can't be Re-Assigned and Re-Declared a value.
 */
 const varsityName = "DIU";
 // varsityName = "DSC";
@@ -32,7 +30,7 @@ console.log(varsityName);
 
 
 // Global Scope
-var department = "CSE";
+let department = "CSE";
 function globalScope() {
   console.log(department);
 }
@@ -41,7 +39,7 @@ globalScope();
 
 // Local Scope
 function localScope() {
-  var language = "JS";
+  let language = "JS";
   console.log(language);
 }
 localScope();
