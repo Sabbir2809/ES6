@@ -9,6 +9,16 @@ visitedDivision.set("key4", "Rongpur");
 visitedDivision.set("key5", "Chittagong");
 visitedDivision.set("key6", "Mymensingh");
 
-// print
+// simple array print
 console.log(visitedDivision.values());
 console.log(visitedDivision.keys());
+
+// loop use for values
+for(let visitedValues of visitedDivision.values()){
+  console.log(visitedValues);
+}
+
+// loop use for keys
+for(let visitedKeys of visitedDivision.keys()){
+  console.log(visitedKeys);
+}
