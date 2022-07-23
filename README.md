@@ -1,7 +1,11 @@
 # ES6
+
 <hr>
 
 ## What is ES6?
+
+<p>JavaScript (JS) is a lightweight, object-oriented, interpreted programming language. In 1996, Netscape submitted JS to ECMA International to be standardized, which lead to a new version of the language called ECMAScript. It took nearly 15 years for ECMAScript to see major changes, and since then, it has been updated regularly. The biggest update occurred in 2015 when ECMAScript 6 (ES6) or ECMAScript 2015 (ES2015) was officially released. ES6 features modernized JavaScript and made it more popular. JavaScript is a very dynamic language and is updating regularly. It's a challenge for programmers to run and keep themselves updated with its constant pace.</p>
+
 <p><b>General Concept: </b></p>
 
 - ES6 is a mordern update of JavaScript.
@@ -18,7 +22,7 @@
 
 - Used for writing server applications and services by using Node.Js
 
------
+---
 
 ## Why should learn ES6?
 
@@ -26,7 +30,7 @@
 
 - Any Node.js Dependent Development.
 
------
+---
 
 ## What I Cover?
 
