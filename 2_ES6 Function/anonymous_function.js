@@ -1,5 +1,5 @@
 /*
-  - A function without a nume
+  - A function without a name
   - It can be declared dynamically at runtime.
   - an anonymous function can be within a variable.
 */

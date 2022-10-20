@@ -1,6 +1,6 @@
 // default import
-import besiDinTikeNa from "./china.js";
+import beshiDinTikeNa from "./china.js";
 
 // class
-let obj = new besiDinTikeNa();
+let obj = new beshiDinTikeNa();
 obj.laptop();

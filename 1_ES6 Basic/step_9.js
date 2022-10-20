@@ -15,12 +15,12 @@ let person = {
 
   webSkills: {
     fontEnd: ["HTML", "CSS", "JavaScript", "React.JS"],
-    mernStact: ["MongoDB", "Express.JS", "React.JS", "Node.JS"],
+    mernStack: ["MongoDB", "Express.JS", "React.JS", "Node.JS"],
   },
 };
 
 console.log(person["varsityInfo"]["id"]);
-console.log(person.webSkills.mernStact);
+console.log(person.webSkills.mernStack);
 
 // for...in - Loop
 for (let props in person) {

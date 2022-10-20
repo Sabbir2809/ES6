@@ -7,7 +7,7 @@
 */
 
 class Department {
-  // parametezied constructor - not return
+  // parameterized constructor - not return
   constructor(v, d) {
     this.varsityName = v;
     this.departmentName = d;
@@ -15,7 +15,7 @@ class Department {
   }
   // method - return
   Print() {
-    console.log("Daffodil International Univarsity");
+    console.log("Daffodil International University");
   }
 }
 
