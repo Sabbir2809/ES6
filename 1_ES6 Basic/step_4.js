@@ -1,6 +1,6 @@
 /*
   - Using rest parameter, a function can be called with any number of arguments
-  - rest parameter is prefixed with three dots for example(...)
+  - rest parameter is prefixed with three dots(...rest)
 */
 
 function sum(a, ...numbers) {
@@ -8,8 +8,7 @@ function sum(a, ...numbers) {
   for (let i of numbers) {
     sum = sum + i;
   }
-  console.log(sum);
-
+  console.log(a, sum);
 }
 
-sum(20, 3, 4, 5);
+sum(20, 1, 2, 3);
