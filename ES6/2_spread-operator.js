@@ -16,6 +16,6 @@ let students = {
 
 let newStudent = {
   ...students,
-  age: 23,
+  age: 14,
 };
 console.log(newStudent);

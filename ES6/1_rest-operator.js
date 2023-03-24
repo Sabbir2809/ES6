@@ -6,7 +6,6 @@ function addNumbers(a, b, ...others) {
     total = total + num;
   }
   console.log(total);
-
   return a + b;
 }
 const result = addNumbers(10, 20, 3, 4, 5, 6, 7, 8, 9);

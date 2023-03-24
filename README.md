@@ -7,15 +7,12 @@ JavaScript(JS) is a lightweight, object-oriented, interpreted programming langua
 <b>In Depth: </b>
 
 - ES6 or ECMAScript 6 is a Scripting Language.
-
 - ECMAScript is generally used for Client-Side Scripting.
-
 - Used for writing server applications and services by using Node.Js
 
 <b>Why should learn ES6?</b>
 
 - For React.Js
-
 - Any Node.js Dependent Development.
 
 ---
@@ -24,7 +21,7 @@ JavaScript(JS) is a lightweight, object-oriented, interpreted programming langua
 
 1. <b>Function: </b> Parameter, Rest Parameters, Returns, Callback, Promises, Dynamic Function, Anonymous functions, Arrow Function, async/awit
 1. <b>Loop: </b> for, for-in, for-of, Conditional Loop, Nested Loop
-1. <b>Array: </b> Simple & Multidimensional Arrays, Array De-Structuring[], Map(), Set()
+1. <b>Array: </b> Simple & Multidimensional Arrays, Array De-Structuring[], Map(), Set(), forEarch()
 1. <b>JSON: </b> JSON Object Array
 1. <b>OPP: </b> class, Object, constructor, inheritance, static
 1. <b>Module: </b> export, import
@@ -32,7 +29,7 @@ JavaScript(JS) is a lightweight, object-oriented, interpreted programming langua
 
 ---
 
-### What I Cover ES6?
+### ES6 Features
 
 1. Basics
 1. Functions
@@ -41,3 +38,8 @@ JavaScript(JS) is a lightweight, object-oriented, interpreted programming langua
 1. Class
 1. String
 1. Advance Features
+
+### Advance Features
+
+1. spread operator
+1. rest operator
