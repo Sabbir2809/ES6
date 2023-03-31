@@ -6,8 +6,8 @@
     - Can declare without the function keyword.
 */
 
-let message = (m) => {
-  console.log(m);
+let message = (msg) => {
+  console.log(msg);
 };
 message("I'm a Arrow Function.");
 

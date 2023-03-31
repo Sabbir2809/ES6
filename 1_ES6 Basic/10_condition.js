@@ -1,4 +1,5 @@
-// Condition: Decision Making
+// Condition: Use to Decision Making
+
 let sabbirObject = {
   fullName: 'Sabbir Hossain',
   age: 24,
