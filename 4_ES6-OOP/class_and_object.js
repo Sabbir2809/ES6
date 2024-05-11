@@ -1,3 +1,4 @@
+// class
 class DIU {
   CSE() {
     console.log("CSE, Function inside class.");
@@ -13,7 +14,7 @@ class DIU {
 // Object Create
 let diuObject = new DIU();
 
-// Function Call
+// Object Methods Call
 diuObject.CSE();
 diuObject.SWE("SWE");
 diuObject.EEE();

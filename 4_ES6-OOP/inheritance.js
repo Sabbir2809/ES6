@@ -8,7 +8,7 @@ class Parent {
     console.log("Deed Writer");
   }
   familyInfo() {
-    console.log("There are Seven members in my family.");
+    console.log("There are Six members in my family.");
   }
 }
 
@@ -17,18 +17,15 @@ class Child extends Parent {
   // override method (Child Power)
   personalInfo() {
     let name = "Abdus Samad Khan";
-    let address = "Kanainagar, Sahrail";
+    let address = "Kanainagar";
     let phoneNumber = "01715993056";
     let age = 65;
 
-    console.log(name);
-    console.log(address);
-    console.log(phoneNumber);
-    console.log(age);
+    console.log(`${name}, ${address}, ${phoneNumber}, ${age}`);
   }
-  // super keyword
-  Details(){
-    super.profession();   
+  // super keyword (parent method inheritance)
+  Details() {
+    super.profession();
     super.familyInfo();
   }
 }
@@ -37,5 +34,4 @@ class Child extends Parent {
 let childObject = new Child();
 
 childObject.personalInfo();
-
 childObject.Details();

@@ -14,8 +14,7 @@ class FullStack {
 // Object Create
 let obj = new FullStack();
 
-// without static - object
+// without static - object এর মাধ্যমে কল করতে হবে
 obj.FrontEnd();
-
-// with static - class
+// with static - class এর মাধ্যমে কল করতে হবে
 FullStack.BackEnd();
