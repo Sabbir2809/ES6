@@ -15,4 +15,4 @@ class Toys {
 }
 
 // name export
-export { smartPhone, laptop, Toys };
+export { Toys, laptop, smartPhone };
