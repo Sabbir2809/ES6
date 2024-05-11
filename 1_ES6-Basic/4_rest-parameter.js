@@ -4,6 +4,7 @@
 */
 
 function sum(a, ...numbers) {
+  console.log(numbers);
   let sum = 0;
   for (let i of numbers) {
     sum = sum + i;
