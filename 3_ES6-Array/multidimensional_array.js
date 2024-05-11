@@ -5,4 +5,3 @@ let three = ["Sohan", "192-15-2809", "Savar"];
 let info = [one, two, three];
 
 console.log(info[1][2]);
-

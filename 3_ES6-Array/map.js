@@ -16,7 +16,6 @@ console.log(visitedDivision.keys());
 
 // get() method
 console.log(visitedDivision.get("key4"));
-console.log();
 
 // delete() Method
 visitedDivision.delete("key4");
